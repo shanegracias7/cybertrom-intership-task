@@ -59,13 +59,13 @@
 		
 		<div class="input-group">
 		<label>USERNAME</label>
-		<input class="username" type="text" name="username" required="true"></input>
+		<input class="username" type="text" name="username" required="true" placeholder="username = shane"></input>
 		</div>
 		<br>
 		
 		<div class="input-group">
 		<label>PASSWORD</label>
-		<input class="password" type="Password" name="password" required="true" minlength="5"></input>
+		<input class="password" type="Password" name="password" required="true" minlength="5" placeholder="password = 12345"></input>
 		</div>
 		<br>
 		<button class="btn" type="submit" name="submit" id="submit">Login</button>
